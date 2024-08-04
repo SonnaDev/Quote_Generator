@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    margin: 0;
+    min-height: 100vh;
+    font-size: 1.3rem;
+    background-color: #843cef;
+    font-family: "Oswald", sans-serif;
+    background-image: url("data:image/svg+xml,%3Csvg width='70' height='70' viewBox='0 0 70 70' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%239C92AC' fill-opacity='0.18' fill-rule='evenodd'%3E%3Cpath d='M0 0h35v35H0V0zm5 5h25v25H5V5zm5 5h15v15H10V10zm5 5h5v5h-5v-5zM40 5h25v25H40V5zm5 5h15v15H45V10zm5 5h5v5h-5v-5zM70 35H35v35h35V35zm-5 5H40v25h25V40zm-5 5H45v15h15V45zm-5 5h-5v5h5v-5zM30 40H5v25h25V40zm-5 5H10v15h15V45zm-5 5h-5v5h5v-5z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.quote-container{
+    width: auto;
+    max-width: 900px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.quote-text{
+    font-size: 2.75rem;
+}
+
+.fa-quote-left{
+    font-size: 4rem;
+}
+.quote-author{
+    margin-top: 15px;
+    font-size: 2rem;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.btn-container{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    cursor: pointer;
+    font-size: 1.2rem;
+    height: 2.5rem;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: #843cef;
+    color: #fff;
+    padding: 0.5rem 0.8rem;
+    box-shadow: 0 0.3rem rgba(121, 121, 121, 0.65);
+}
+
+button:hover{
+    filter: brightness(110%);
+}
+
+button:active{
+    transform: translate(0, 0.3rem);
+    box-shadow: 0 0.1rem rgba(255, 255, 255, 0.65);
+}
+
+.fa-twitter{
+    font-size: 1.5rem;
+}
